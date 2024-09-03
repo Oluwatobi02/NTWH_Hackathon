@@ -77,17 +77,19 @@ export default function Home() {
                 </h2>
                 <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="text-center">
-                        <p className="text-gray-700 italic">
-                            "SACS has been an amazing experience. I’ve gained so much knowledge and made lifelong friends."
-                        </p>
+                    <p className="text-gray-700 italic">
+    &quot;SACS has been an amazing experience. I&apos;ve gained so much knowledge and made lifelong friends.&quot;
+</p>
+
                         <h3 className="mt-4 text-lg font-semibold text-gray-900">
                             Daniel Nnaji, President
                         </h3>
                     </div>
                     <div className="text-center">
-                        <p className="text-gray-700 italic">
-                            "The events and workshops are top-notch. They’ve really helped me develop my skills."
-                        </p>
+                    <p className="text-gray-700 italic">
+    &quot;The events and workshops are top-notch. They&apos;ve really helped me develop my skills.&quot;
+</p>
+
                         <h3 className="mt-4 text-lg font-semibold text-gray-900">
                             Derrell Carter, Vice President
                         </h3>
@@ -99,8 +101,9 @@ export default function Home() {
                     Ready to Make an Impact?
                 </h2>
                 <p className="text-lg md:text-xl text-gray-700 mb-8">
-                    Join SACS today and be part of a community that’s shaping the future of technology.
-                </p>
+    Join SACS today and be part of a community that&apos;s shaping the future of technology.
+</p>
+
                 <button onClick={() => router.push('/membership')} className="px-6 py-3 bg-black text-white rounded-full text-lg hover:bg-gray-800 transition duration-300">
                     Become a Member
                 </button>

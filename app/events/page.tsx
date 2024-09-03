@@ -41,7 +41,8 @@ export default function Events() {
         <div className="flex justify-center">
           <Image src="https://i.pinimg.com/236x/34/ec/14/34ec14ccfb09cea00490c01f6a79638e.jpg" alt="Past Event" width={600} height={400} className="rounded-lg" />
         </div>
-        <p className="text-center text-gray-700 mt-4">Our past events have been a huge success. Here's a glimpse of what we've done!</p>
+        <p className="text-center text-gray-700 mt-4">Our past events have been a huge success. Here&apos;s a glimpse of what we&apos;ve done!</p>
+
       </section>
 
       <section className="py-12 bg-gray-100 text-center">
